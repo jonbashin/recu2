@@ -24,6 +24,6 @@ df_2 <- kNN(df_sample,
             imp_var = FALSE)
 vis_miss(df_2)
 
-write.csv(df, "DF_DC_na.csv")
+write.csv(df2, "DF_DC_na.csv")
 
 
