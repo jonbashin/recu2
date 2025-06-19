@@ -23,3 +23,7 @@ df_2 <- kNN(df_sample,
             k = 5, 
             imp_var = FALSE)
 vis_miss(df_2)
+
+write.csv(df, "DF_DC_na.csv")
+
+
